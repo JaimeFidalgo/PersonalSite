@@ -8,5 +8,12 @@ $(document).ready(function(){
             $(".navbar").removeClass("sticky")
 
         }
+    });
+
+    //togle menu/navbar script
+
+    $(".menu-btn").click(function(){
+        $(".navbar .menu").toggleClass("active")
+        $(".menu-btn i").toggleClass("active")
     })
 });
