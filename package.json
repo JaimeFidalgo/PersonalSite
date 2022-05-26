@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Jaime Fidalgo Santos Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaimeFidalgo/PersonalSite.git"
+  },
+  "keywords": [],
+  "author": "Jaime Fidalgo Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaimeFidalgo/PersonalSite/issues"
+  },
+  "homepage": "https://github.com/JaimeFidalgo/PersonalSite#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
