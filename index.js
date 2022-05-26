@@ -20,7 +20,7 @@ app.use(express.static(path.resolve(__dirname,'public')))//permitir acceso a los
 //routes
 app.use(require('./back-end/routes/routes')); //importo las rutas
 
-s
+
 
 
 // starting server
