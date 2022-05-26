@@ -73,4 +73,12 @@ var typed = new Typed(".typing-2" , {
         }
 
     })
+
+
+    //Download CV click event script
+
+    // const downloadCvButton = document.querySelector("#download-cv");
+    // downloadCvButton.addEventListener('click', () => {
+
+    // })
 });
