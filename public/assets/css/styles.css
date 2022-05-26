@@ -138,17 +138,13 @@
 
 }
 
-/*About Section Styling*/
+/* All similar styling */
 
 section {
     padding: 100px 0;
 }
 
-.about {
-    font-family: "Poppins", sans-serif;
-}
-
-.about .title {
+section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -159,7 +155,7 @@ section {
 
 }
 
-.about .title::before {
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -170,8 +166,8 @@ section {
     transform: translateX(-50%)
 }
 
-.about .title::after {
-    content: "who I am";
+section .title::after {
+    
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -182,7 +178,21 @@ section {
     transform: translateX(-50%)
 }
 
-.about .about-content {
+/*About Section Styling*/
+
+
+
+.about, .services {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.about .title::after{
+    content: "who I am";
+}
+
+.about .about-content, services .serv-content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -237,32 +247,70 @@ section {
     background: none;
 }
 
+/* Expertise(services) section styling */
+
+.services{
+    color: #fff;
+    background: #111;
+
+}
+
+.services .title::before{
+    background: #fff;
+
+}
+
+.services .title::after{
+    background: #111;
+    content: "What I've done"
+}
+
+.services .serv-content {
+display: flex;
+justify-content: space-around;
+
+}
+
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .serv-content .card:hover{
+    background: crimson;
+}
+
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+
+.services .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+
+}
+
+.services .serv-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 /*Responsive media query start*/
 
 @media (max-width: 1300px) {
