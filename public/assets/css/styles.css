@@ -768,7 +768,9 @@ owl-dot:hover {
             width: 100%;
             margin-bottom: 25px;
         }
-
+        .contact .contact-content .column{
+            width: 100%;
+        }
 
     }
 
@@ -801,7 +803,7 @@ owl-dot:hover {
         }
 
         .services .serv-content .card,
-        .skills .skills-content .column {
+        .skills .skills-content .column, .contact .contact-content .column {
             width: 100%;
 
         }
