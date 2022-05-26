@@ -148,7 +148,7 @@ section {
 .services,
 .skills,
 .teams,
-.contact {
+.contact, footer {
     font-family: "Poppins", sans-serif;
 }
 
@@ -570,6 +570,19 @@ owl-dot:hover {
 
 .contact .contact-content .info .sub-title {
     color: #333;
+    
+    
+}
+
+.contact .contact-content .info .sub-title a{
+    color: #333;
+    
+    transition: all 0.3s ease;
+}
+.contact .contact-content .info .sub-title a:hover{
+    
+   color: crimson;
+  
 }
 
 .contact .right form .fields {
@@ -643,6 +656,21 @@ owl-dot:hover {
 .contact .right form .button button:hover {
     background: none;
     color: crimson;
+}
+
+/* Footers Start Styling */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111;
+    color: #fff;
+    padding: 20px 23px;
+}
+
+footer span .age{
+color: crimson;
 }
 
 
