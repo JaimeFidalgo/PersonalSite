@@ -33,6 +33,23 @@ $("html").animate({
         $(".menu-btn i").toggleClass("active")
     })
 
+    //typing animation script
+var typed = new Typed(".typing" , {
+    strings: [ "Engineer", "Entrepreneur" , "Developer"],
+    typeSpeed: 100,
+    backSpeed: 70,
+    loop: true
+
+})
+
+var typed = new Typed(".typing-2" , {
+    strings: [ "Engineer", "Entrepreneur" , "Developer"],
+    typeSpeed: 100,
+    backSpeed: 70,
+    loop: true
+
+})
+
     //owl carousel script
 
     $(".carousel").owlCarousel({
