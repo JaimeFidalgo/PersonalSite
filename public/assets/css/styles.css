@@ -464,7 +464,7 @@ section .title::after {
 /* Projects(teams) section styling */
 
 .teams .title::after {
-    content: "My projects"
+    content: "My work"
 
 }
 
