@@ -545,6 +545,11 @@ section .title::after {
 
         }
 
+        .skills .skills-content .column{
+            width: 100%;
+            margin-bottom: 25px;
+        }
+
 
     }
 
@@ -576,7 +581,7 @@ section .title::after {
 
         }
 
-        .services .serv-content .card {
+        .services .serv-content .card, .skills .skills-content .column{
             width: 100%;
 
         }
