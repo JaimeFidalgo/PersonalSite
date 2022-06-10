@@ -236,7 +236,7 @@ section .title::after {
 
 
 .about .title::after {
-    content: "who I am";
+    content: "Who I am";
 }
 
 
